@@ -27,11 +27,11 @@ const Index = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-hell-red/20 to-zest-blue/20 backdrop-blur-sm"></div>
         <div className="relative max-w-6xl mx-auto">
           <div className="flex items-center justify-center mb-6">
-            <span className="text-6xl mr-4">👹</span>
+            <span className="text-6xl mr-4">🔥</span>
             <h1 className="text-6xl font-bold bg-gradient-to-r from-hell-flame to-zest-frost bg-clip-text text-transparent">
               ZEST
             </h1>
-            <span className="text-6xl ml-4">😈</span>
+            <span className="text-6xl ml-4">🔥</span>
           </div>
           <p className="text-xl text-foreground/80 mb-8 max-w-3xl mx-auto">
             Элитный игровой клан из глубин ада. Мы покоряем виртуальные миры с яростью демонов и холодным расчетом стратегов.
