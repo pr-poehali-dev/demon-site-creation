@@ -29,7 +29,7 @@ const Index = () => {
           <div className="flex items-center justify-center mb-6">
             <Icon name="Flame" className="text-hell-red mr-4" size={48} />
             <h1 className="text-6xl font-bold bg-gradient-to-r from-hell-flame to-zest-frost bg-clip-text text-transparent">
-              DEMON ZEST
+              ZEST
             </h1>
             <Icon name="Zap" className="text-zest-blue ml-4" size={48} />
           </div>
@@ -38,12 +38,12 @@ const Index = () => {
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Badge variant="destructive" className="px-4 py-2 text-lg bg-hell-red">
-              <Icon name="Crown" className="mr-2" size={20} />
-              Основан в 2019
+              <Icon name="Info" className="mr-2" size={20} />
+              Информация
             </Badge>
-            <Badge variant="secondary" className="px-4 py-2 text-lg bg-zest-blue">
-              <Icon name="Users" className="mr-2" size={20} />
-              50+ Участников
+            <Badge variant="secondary" className="px-4 py-2 text-lg bg-zest-blue cursor-pointer hover:bg-zest-ice transition-colors">
+              <Icon name="UserPlus" className="mr-2" size={20} />
+              Оставить заявку
             </Badge>
           </div>
         </div>
