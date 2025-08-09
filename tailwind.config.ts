@@ -6,7 +6,7 @@ export default {
 		"./pages/**/*.{ts,tsx}",
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
-		"./src/**/*.{ts,tsx}",
+		"./src/**/*.{ts,tsx}"
 	],
 	prefix: "",
 	theme: {
@@ -61,6 +61,25 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Demon Zest clan colors
+				hell: {
+					red: '#DC2626',
+					flame: '#EF4444',
+					blood: '#991B1B',
+					ember: '#F87171'
+				},
+				demon: {
+					dark: '#1F1F1F',
+					shadow: '#0F0F0F',
+					void: '#000000',
+					stone: '#404040'
+				},
+				zest: {
+					blue: '#1E40AF',
+					ice: '#3B82F6',
+					frost: '#60A5FA',
+					steel: '#1E3A8A'
 				}
 			},
 			borderRadius: {
